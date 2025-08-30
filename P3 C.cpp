@@ -2,15 +2,16 @@
 #include <stdio.h>
 int main()
 {
-	float length,breadth,area,perimeter;
+	float len,bread,area,peri;
 	printf("Enter Length:");
-	scanf("%f",&length);
+	scanf("%f",&len);
 	printf("Enter Breadth");
-	scanf("%f",&breadth);
-	area=("%f",length*breadth);
-	perimeter=("%f",2*(length+breadth));
+	scanf("%f",&bread);
+	area=("%f",len*bread);
+	perimeter=("%f",2*(len+bread));
 	printf("Area is:%f/n",area);
-	printf("Perimeter is: %f/n",perimeter);
+	printf("Perimeter is: %f/n",peri);
 	return 0;
 }
+
 
