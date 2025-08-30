@@ -16,12 +16,12 @@ int main()
 	}
 	Product=("%f",num1*num2);
 	Divide=("%f",num1/num2);
-	printf("Results Are As Follows:");
 	printf("Sum: %f\n", Sum);
 	printf("Difference: %f\n", Difference);
 	printf("Product: %f\n", Product);
 	printf("Divide: %f\n", Divide);
 	return 0;
 }
+
 
 
