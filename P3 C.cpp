@@ -8,10 +8,11 @@ int main()
 	printf("Enter Breadth");
 	scanf("%f",&bread);
 	area=("%f",len*bread);
-	perimeter=("%f",2*(len+bread));
+	peri=("%f",2*(len+bread));
 	printf("Area is:%f/n",area);
 	printf("Perimeter is: %f/n",peri);
 	return 0;
 }
+
 
 
