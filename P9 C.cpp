@@ -13,7 +13,7 @@ int main() {
     scanf("%f", &time);
     si = (principal * rate * time) / 100.0;
     amt = principal * pow((1 + rate / 100.0), time);
-    ci = amount - principal;   
+    ci = amt - principal;   
     printf("Calculating Interest for:\n");
     printf("Principal: %f\n", principal);
     printf("Rate: %f%%\n", rate);
@@ -23,5 +23,6 @@ int main() {
     printf("Total Amount with Compound Interest is: %f\n", amt);
     return 0;
 }
+
 
 
