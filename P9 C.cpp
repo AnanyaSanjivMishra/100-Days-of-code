@@ -14,15 +14,13 @@ int main() {
     simple_interest = (principal * rate * time) / 100.0;
     amount = principal * pow((1 + rate / 100.0), time);
     compound_interest = amount - principal;   
-    printf("\n----------------------------------------\n");
     printf("Calculating Interest for:\n");
-    printf("Principal: %.2f\n", principal);
-    printf("Rate: %.2f%%\n", rate);
-    printf("Time: %.2f years\n", time);
-    printf("----------------------------------------\n");
-    printf("Simple Interest is: %.2f\n", simple_interest);
-    printf("Compound Interest is: %.2f\n", compound_interest);
-    printf("Total Amount with Compound Interest is: %.2f\n", amount);
-    printf("----------------------------------------\n");
+    printf("Principal: %f\n", principal);
+    printf("Rate: %f%%\n", rate);
+    printf("Time: %f years\n", time);
+    printf("Simple Interest is: %f\n", simple_interest);
+    printf("Compound Interest is: %f\n", compound_interest);
+    printf("Total Amount with Compound Interest is: %f\n", amount);
     return 0;
 }
+
